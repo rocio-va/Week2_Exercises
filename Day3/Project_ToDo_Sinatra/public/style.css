@@ -1,0 +1,8 @@
+.complete{
+	color:red;
+    text-decoration: line-through;
+}
+ul{
+	font-size: 22px;
+    color: black;
+}

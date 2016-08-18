@@ -1,0 +1,6 @@
+<h2><%= @tasks.nil? %></h2>
+<form id="formTask" action="/create_task" method="POST">
+    <label for="content">Task</label>
+    <input type="text" id ="content" name="content" placeholder="¿Qué tienes que hacer?">
+    <button type="submit">Add Task</button>
+</form>

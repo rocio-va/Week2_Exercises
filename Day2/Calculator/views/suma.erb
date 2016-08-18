@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Hola</h1>
+    <%=@name%>
+    <form id="formCalculator" action="/calculate" method="POST">
+        <label for="firstNumber">First Number</label>
+        <input type="number" id ="firstNumber" name="firstNumber" placeholder="Primer número" value="<%=@value%>">
+        <label for="secondNumber"> Second Number</label>
+        <input type="number" id ="secondNumber" name="secondNumber" placeholder="Segundo número">
+        <button type="submit" name="operation" value="addition">ADD</button>
+        <button type="submit" name="operation" value="subtract">SUBTRACT</button>
+        <button type="submit" name="operation" value="multiply">MULTIPLY</button>
+        <button type="submit" name="operation" value="divide">DIVIDE</button>
+    </form>
+
+</body>
+</html>
